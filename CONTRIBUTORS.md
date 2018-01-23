@@ -58,3 +58,5 @@ List below is the official list of TOC contributors, in alphabetical order:
 * Yaron Haviv, iguazio (yaronh@iguaz.io)
 * Yong Tang, Infoblox (ytang@infoblox.com)
 * Yuri Shkuro, Uber	(ys@uber.com)
+* Rae Wang, Google (raew@google.com)
+* Ray Colline, Google (rayc@google.com)
