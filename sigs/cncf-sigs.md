@@ -1,17 +1,14 @@
 
 # CNCF Special Interest Groups ("SIGs")
 
-Proposal by the CNCF TOC and Contributors
-Primary Authors: Alexis Richardson, Quinton Hoole
-November 2018 - January 2019
-
 Final Draft v1.0
+Primary Authors: Alexis Richardson, Quinton Hoole
 
 [[TOC]]
 
 ## Overall Purpose
 
-Scale contributions by the CNCF technical and user community, while retaining integrity and increasing quality in support of our [mission](https://github.com/cncf/foundation/blob/master/charter.md#1-mission-of-the-cloud-native-computing-foundation). 
+Scale contributions by the CNCF technical and user community, while retaining integrity and increasing quality in support of our [mission](https://github.com/cncf/foundation/blob/master/charter.md#1-mission-of-the-cloud-native-computing-foundation).
 
 ## Specific Objectives
 
@@ -43,19 +40,19 @@ CNCF SIGs are modelled on Kubernetes SIGs.  Differences are intended to be minim
 
 ## Responsibilities & Empowerment of SIGs
 
-It is the desire of the TOC that the CNCF SIGs, under guidance from the TOC, provide high-quality technical expertise, unbiased information and proactive leadership within their category.  The TOC makes use of this input to act as an informed and effective executive board to select and promote appropriate CNCF projects and practices, and to disseminate high quality information to end users and the cloud-native community in general.  SIGs explicitly have no direct authority over CNCF projects. In particular, the creation of CNCF SIG’s does not change the existing, successfully practiced [charter](https://github.com/cncf/foundation/blob/master/charter.md) goal that "Projects.. will be ‘lightly’ subject to the Technical Oversight Committee". 
+It is the desire of the TOC that the CNCF SIGs, under guidance from the TOC, provide high-quality technical expertise, unbiased information and proactive leadership within their category.  The TOC makes use of this input to act as an informed and effective executive board to select and promote appropriate CNCF projects and practices, and to disseminate high quality information to end users and the cloud-native community in general.  SIGs explicitly have no direct authority over CNCF projects. In particular, the creation of CNCF SIG’s does not change the existing, successfully practiced [charter](https://github.com/cncf/foundation/blob/master/charter.md) goal that "Projects.. will be ‘lightly’ subject to the Technical Oversight Committee".
 
 The SIGs should strive to present the TOC with easily understandable and votable "propositions", each of which is supported by clear written evidence.  A proposition may be “to approve this project for incubation based on this [written due diligence investigation](https://github.com/cncf/toc/blob/master/process/due-diligence-guidelines.md)”, or “to approve this landscape document based on these clear goals and evidence that it achieves them”.  It is of utmost importance that the information and proposals provided to the TOC by SIGs be highly accurate and unbiased, driven by the goal to improve the CNCF as a whole, rather than benefit one project or company over another.  We believe that the rising tide lifts all boats, and that is our goal.
 
 Key ideas here:
 
-* The TOC is the arbiter & editor and may always intervene and overrule. 
+* The TOC is the arbiter & editor and may always intervene and overrule.
 
 * The SIGs are the productive talent, and respected as such.
 
 SIGs may choose to spawn focussed and time-limited working groups to achieve some of their responsibilities (for example, to produce a specific educational white paper, or portfolio gap analysis report).  Working groups should have a clearly documented charter, timeline (typically a few quarters at most), and set of deliverables. Once the timeline has elapsed, or the deliverables delivered, the working group dissolves, or is explicitly re-chartered.
 
-### Specific SIG Responsibilities 
+### Specific SIG Responsibilities
 
 #### Project Handling:
 
@@ -175,11 +172,11 @@ As a starting point let’s be inspired by CNCF OSS Projects and by K8S SIGs.  T
 
 * All SIGs inherit and follow the CNCF TOC Operating Principles.
 
-* SIGs must have a documented governance process that encourages community participation and clear guidelines to avoid biased decision-making.  
+* SIGs must have a documented governance process that encourages community participation and clear guidelines to avoid biased decision-making.
 
   * NOTE: aim here is to align with "minimal viable" model of the CNCF projects, and only have such governance as is needed, not anything too burdensome
 
-* They may grow a set of practices over time in the same way as an OSS Project, provided this is consistent with CNCF Operating Principles. 
+* They may grow a set of practices over time in the same way as an OSS Project, provided this is consistent with CNCF Operating Principles.
 
 * As with CNCF Projects all exceptions and disputes are handled by TOC with CNCF Staff help
 
@@ -199,23 +196,5 @@ As a starting point let’s be inspired by CNCF OSS Projects and by K8S SIGs.  T
 
 * The TOC may, by means of a 2/3 majority vote, declare "no confidence" in the SIG.  In this event, the TOC may then vote to retire or reconstitute the SIG.
 
-## Initial SIGS
-
-To bootstrap the process, the TOC proposes the following SIGs, and projects assigned to each SIG. Clearly all of these SIG’s will not be fully-formed overnight or begin operating immediately, so the TOC itself will fulfill the duties of not-yet-formed SIG’s until they are.  We can however, fairly immediately, assign one voting member of the TOC as liason for each SIG, and prioritize the order of formation of the SIGs, starting immediately with the most pressing ones. 
 
 
-| Name (to be finalised)  | Area        | Current CNCF Projects 
-| ------------------------|-------------|-----------------------
-| Traffic | networking, service discovery, load balancing, service mesh, RPC, pubsub, etc. | Envoy, Linkerd, NATS, gRPC, CoreDNS, CNI
-| Observability | monitoring, logging, tracing, profiling, etc. | Prometheus, OpenTracing, Fluentd, Jaeger, Cortex, OpenMetrics
-| Governance | security, authentication, authorization, auditing, policy enforcement, compliance, GDPR, cost management, etc. | SPIFFE, SPIRE, Open Policy Agent, Notary, TUF,  Falco
-| App Dev, Ops & Testing | PaaS, Serverless, Operators, CI/CD,  Conformance, Chaos Eng, Scalability and Reliability measurement etc. | Helm, CloudEvents, Telepresence, Buildpacks, (CNCF CI)
-| Core and Applied Architectures | orchestration, scheduling, container runtimes, sandboxing technologies, packaging and distribution, specialized architectures thereof (e.g. Edge, IoT, Big Data, AI/ML, etc). | Kubernetes, containerd, rkt, Harbor, Dragonfly, Virtual Kubelet
-| Storage | Block, File and Object Stores, Databases, Key-Value stores etc. | TiKV, etcd, Vitess, Rook
-
-
-The TOC and CNCF Staff will draft an initial set of charters for the above, and solicit/elect suitable chairs.
-
-## Appendix A: Worked Example - CNCF Governance SIG
-
-See [separate document](https://docs.google.com/document/d/18ufx6TjPavfZubwrpyMwz6KkU-YA_aHaHmBBQkplnr0/edit?usp=sharing). 
