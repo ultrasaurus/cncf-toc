@@ -160,7 +160,7 @@ As a starting point let’s be inspired by CNCF OSS Projects and by K8S SIGs.  T
 
 * Chairs are assigned following a 2/3 majority vote of the TOC
 
-* Terms last for 1 year but staggered such that at least 1 of the chairs is able to maintain continuity
+* Terms last for 2 years but staggered such that at least 1 of the chairs is able to maintain continuity
 
 * The TOC and Chairs nominate Tech leads
 
@@ -195,6 +195,5 @@ As a starting point let’s be inspired by CNCF OSS Projects and by K8S SIGs.  T
   * Must retire the SIG after 6 months
 
 * The TOC may, by means of a 2/3 majority vote, declare "no confidence" in the SIG.  In this event, the TOC may then vote to retire or reconstitute the SIG.
-
 
 
